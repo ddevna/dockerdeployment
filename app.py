@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    return "Flask app is running like bolt"
+    return "Flask app is running like usain bolt"
 
 
 if __name__ == "__main__":
